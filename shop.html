@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shubham Mobile Shop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>📱 Shubham Mobile Shop</h1>
+    <button onclick="logout()">Logout</button>
+  </header>
+
+  <section id="products">
+    <h2>Mobiles sell Big Damaka Diwali for Shubham shop</h2>
+    <ul id="productList">
+  </section>
+
+  <script src="script.js"></script>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="ama.css" />
+    <script src="index.js"></script>
+    
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+
+            <div class="nav-address border">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-second">India</p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                   <option>Boys Cloth</option>
+                    <option>Girls Cloth</option>
+                    <option>Kurti,Saree</option>
+                    <option>Dress Material</option>
+                    <option>Women Western</option>
+                    <option>Kids & Toys</option>
+                    <option>Home &  Kitchen</option>
+                    <option>Beauty & Health</option>
+                    <option>Jawellery & Accessores</option>
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                </select>
+                <input placeholder="Search Shubham Shop" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="nav-singin border">
+                <p><span>Hello, sign in</span></p>
+                <p class="nav-second">Account & lists</p>
+            </div>
+            <div class="nav-return border">
+                <p><span>Return</span></p>
+                <p class="nav-second">& Orders</p>
+        </div>
+        <div class="nav-cart border">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart
+        </div>
+       </div>
+       <div class="panel">
+        <div class="panel-all">
+            <i class="fa-solid fa-bars"></i>
+            All
+        </div>
+        <div class="panel-ops">
+         <p>Today's Deals</p>
+         <p>Customer Service</p>
+         <p>Registry</p>
+         <p>Gift Card</p>  
+         <p>Sell</p> 
+        </div>
+        <div class="panel-deals">
+            Shop deals in Electronics
+        </div>
+    </div>
+    </header>
+
+    <div class="hero-section">
+        <div class="hero-msg">
+            <p>You are on amazon.com. You can also shop on amazon India for millions of products with fast delivery. <a> Click here to go to amazon.in</a></p>
+        </div>
+    </div>
+    <div class="shop-section">
+        <div class="box1 box">
+            <div class="box-content">
+                <h2>iPhone 17 pro max </h2>
+            <div class="box-img" style="background-image: url('iphone\ 17.jpg');"></div>
+             <h3>Offer = HDFC Band Card</h3>
+        <strong>iPhone 17 pro max </strong> - ₹1,49,900
+        <button onclick="addItem('iPhone 17 pro max', 149900)">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box2 box">
+            <div class="box-content">
+                <h2>iPhone 16 pro max</h2>
+            <div class="box-img" style="background-image: url('iphone\ 16\ pro\ max.jpg');"></div>
+         <h3>Offer = %8</h3>
+        <strong>iPhone 16 pro max</strong> - ₹1,12,900
+        <button onclick="addItem('iPhone 16 pro max', 112900)">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <h2>OnePlus 9R 5G</h2>
+            <div class="box-img" style="background-image: url('oneplus.jpg');"></div>
+             <h3>Offer = No</h3>
+        <strong>OnePlus 9R 5G</strong> - ₹39,999
+        <button onclick="addItem('OnePlus 9R 5G', 39999 )">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <h2>Realme 14x 5G </h2>
+            <div class="box-img" style="background-image: url('realme3.jpg');"></div>
+          <h3>Offer = %23</h3>
+        <strong>Realme 14x 5G </strong> - ₹15,999
+        <button onclick="addItem('Realme 14x 5G', 15999)">Add to Cart</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="shop-section">
+        <div class="box1 box"> 
+            <div class="box-content">
+                <h2>Samsung Galaxy A05s</h2>
+            <div class="box-img" style="background-image: url('samsung\ A05s.jpg');"></div>
+             <h3>Offer = %28</h3>
+        <strong>Samsung Galaxy A05s</strong> - ₹11,499
+        <button onclick="addItem('Samsung Galaxy A05s', 11499)">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box2 box">
+            <div class="box-content">
+ 
+            <h2>Samsung ultra S24 pro</h2>
+            <div class="box-img" style="background-image: url('samsung\ s24\ ultra.jpg');"></div>
+            <h3>Offer = %12</h3>
+        <strong>Samsung Galaxy S24</strong> - ₹74,999
+        <button onclick="addItem('Samsung Galaxy S24', 74999)">Add to Cart</button>
+        <p><b>See more</b></p>
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <h2>Apple iPhone 15 </h2>
+            <div class="box-img" style="background-image: url('iphone\ 15.jpg');"></div>
+             <h3>Offer = %18</h3>
+        <strong>Apple iPhone 15</strong> - ₹52,999
+        <button onclick="addItem('Apple iPhone 15', 52999)">Add to Cart</button>
+            </div>
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <h2>Apple iPhone 13 pro max</h2>
+            <div class="box-img" style="background-image: url('iphone\ 16.jpg');"></div>
+             <h3>Offer = %17</h3>
+        <strong>Apple iPhone 13 pro max</strong> - ₹1,16,900
+        <button onclick="addItem('Apple iPhone 13 pro max', 116900)">Add to Cart</button>
+            </div>
+        </div>
+        </div>
+
+
+        <div>
+<div class="hero-man">
+        <div class="hero-man">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="shop-section">
+    <div class="box1 box ">
+        <div class="box-content">
+            <h2>Samsung Galaxy F15 5G</h2>
+        <div class="box-img" style="background-image: url('samsung\ f15.jpg');"></div>
+         <h3>Offer = %30</h3>
+        <strong>Samsung Galaxy F15 5G</strong> - ₹16,999
+        <button onclick="addItem('Samsung Galaxy F15 5G', 16,999)">Add to Cart</button>
+        </div>
+    </div>
+    <div class="box2 box">
+        <div class="box-content">
+            <h2>Oppo F21 Pro 5G </h2>
+        <div class="box-img" style="background-image: url('oppo\ F21\ pro\ .jpg');"></div>
+        <h3>Offer = %29</h3>
+        <strong>Oppo F21 Pro 5G</strong> - ₹20,999
+        <button onclick="addItem('Oppo F21 5G', 20999)">Add to Cart</button>
+        </div>
+    </div>
+    <div class="box3 box">
+        <div class="box-content">
+            <h2>Oppo Reno14 5G</h2>
+        <div class="box-img" style="background-image: url('oppo\ 2.jpg');"></div>
+        <h3>Offer = No</h3>
+        <strong>Oppo Reno14 5G</strong> - ₹30,000
+        <button onclick="addItem('Oppo Reno14 5G', 30000)">Add to Cart</button>
+        </div>
+    </div>
+    <div class="box4 box">
+        <div class="box-content">
+            <h2>Samsung Galaxy M35 5G</h2>
+        <div class="box-img" style="background-image: url('galaxy\ M35.jpg');"></div>
+        <h3>Offer = %23</h3>
+        <strong>Samsung Galaxy M35 5G</strong> - ₹16,999
+        <button onclick="addItem('Samsung Galaxy M35 5G', 16999)">Add to Cart</button>
+      
+        </div>
+    </div>
+
+</div>
+<div class="shop-section">
+    <div class="box1 box">
+        <div class="box-content">
+            <h2>Health & personal care</h2>
+        <div class="box-img" style="background-image: url('oppo3.jpg');"></div>
+         <h3>Offer = %23</h3>
+        <strong>Samsung Galaxy S24</strong> - ₹74,999
+        <button onclick="addItem('Samsung Galaxy S24', 74999)">Add to Cart</button>
+        
+        </div>
+    </div>
+    <div class="box2 box">
+        <div class="box-content">
+            <h2>Health & personal care</h2>
+        <div class="box-img" style="background-image: url('redmi\ A3x.jpg');"></div>
+ <h3>Offer = %23</h3>
+        <strong>Samsung Galaxy S24</strong> - ₹74,999
+        <button onclick="addItem('Samsung Galaxy S24', 74999)">Add to Cart</button>
+        </div>
+    </div>
+    <div class="box3 box">
+        <div class="box-content">
+            <h2>Health & personal care</h2>
+        <div class="box-img" style="background-image: url('hari1.jpg');"></div>
+ <h3>Offer = %23</h3>
+        <strong>Samsung Galaxy S24</strong> - ₹74,999
+        <button onclick="addItem('Samsung Galaxy S24', 74999)">Add to Cart</button>
+        <p><b>See more</b></p>
+        </div>
+    </div>
+    <div class="box4 box">
+        <div class="box-content">
+            <h2>Health & personal care</h2>
+        <div class="box-img" style="background-image: url('hari2.jpg');"></div>
+         <h3>Offer = %23</h3>
+        <strong>Samsung Galaxy S24</strong> - ₹74,999
+        <button onclick="addItem('Samsung Galaxy S24', 74999)">Add to Cart</button>
+
+        </div>
+    </div>
+    </div>
+
+
+
+    <div>
+        <div class="hero-girl">
+                <div class="hero-girl">
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+        <div class="shop-section">
+            <div class="box1 box">
+                <div class="box-content">
+                    <h2>Girl's cloth's</h2>
+                <div class="box-img" style="background-image: url('hari3.jpg');"></div>
+ <h3>Offer = %23</h3>
+        <strong>Samsung Galaxy S24</strong> - ₹74,999
+        <button onclick="addItem('Samsung Galaxy S24', 74999)">Add to Cart</button>
+
+                </div>
+            </div>
+            <div class="box2 box">
+                <div class="box-content">
+                    <h2>Health & personal care</h2>
+                <div class="box-img" style="background-image: url('hari4.jpg');"></div>
+                 <h3>Offer = %23</h3>
+        <strong>Samsung Galaxy S24</strong> - ₹74,999
+        <button onclick="addItem('Samsung Galaxy S24', 74999)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="box3 box">
+                <div class="box-content">
+                    <h2>Health & personal care</h2>
+                <div class="box-img" style="background-image: url('hari5.jpg');"></div>
+                <h3>Offer = %23</h3>
+        <strong>Samsung Galaxy S24</strong> - ₹74,999
+        <button onclick="addItem('Samsung Galaxy S24', 74999)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="box4 box">
+                <div class="box-content">
+                    <h2>Health & personal care</h2>
+                <div class="box-img" style="background-image: url('hari6.jpg');"></div>
+                 <h3>Offer = %23</h3>
+        <strong>Samsung Galaxy S24</strong> - ₹74,999
+        <button onclick="addItem('Samsung Galaxy S24', 74999)">Add to Cart</button>
+        <p><b>See more</b></p>
+                </div>
+            </div>
+        
+        </div>
+        <div class="shop-section">
+            <div class="box1 box">
+                <div class="box-content">
+                    <h2>Health & personal care</h2>
+                <div class="box-img" style="background-image: url('hari7.jpg');"></div>
+                 <h3>Offer = %23</h3>
+        <strong>Samsung Galaxy S24</strong> - ₹74,999
+        <button onclick="addItem('Samsung Galaxy S24', 74999)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="box2 box">
+                <div class="box-content">
+                    <h2>Health & personal care</h2>
+                <div class="box-img" style="background-image: url('hari8.jpg');"></div>
+ <h3>Offer = %23</h3>
+        <strong>Samsung Galaxy S24</strong> - ₹74,999
+        <button onclick="addItem('Samsung Galaxy S24', 74999)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="box3 box">
+                <div class="box-content">
+                    <h2>Health & personal care</h2>
+                <div class="box-img" style="background-image: url('hari9.jpg');"></div>
+                 <h3>Offer = %23</h3>
+        <strong>Samsung Galaxy S24</strong> - ₹74,999
+        <button onclick="addItem('Samsung Galaxy S24', 74999)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="box4 box">
+                <div class="box-content">
+                    <h2>Health & personal care</h2>
+                <div class="box-img" style="background-image: url('hari10.jpg');"></div>
+                 <h3>Offer = %23</h3>
+        <strong>Samsung Galaxy S24</strong> - ₹74,999
+        <button onclick="addItem('Samsung Galaxy S24', 74999)">Add to Cart</button>
+                </div>
+            </div>
+            </div>
+
+        
+
+            <section id="cart">
+    <h2>Your Cart</h2>
+    <ul id="cartList"></ul>
+    <button onclick="generateBill()">Generate Bill</button>
+    <button onclick="clearCart()">Clear Cart</button>
+  </section>
+
+  <section id="bill">
+    <h2>Bill Summary</h2>
+    <div id="billDetails"></div>
+    <button onclick="resetCart()">New Order</button>
+  </section>
+
+            
+            
+
+</body>
+</html>
